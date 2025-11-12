@@ -11,10 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^5.1.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "nodemon": "^3.1.11",
+    "package-name": "^0.1.0"
   },
   "repository": {
     "type": "git",
