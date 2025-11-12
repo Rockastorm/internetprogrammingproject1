@@ -10,5 +10,7 @@ router.get('/',(req,res)=>{
 router.get('/new',(req,res)=>{
     res.send('New User Form');
 });
-
+router.post('/:id', (req, res)=>{
+    res.send(`Getting User data: ${req.params.id}`)
+});
 module.exports = router;
