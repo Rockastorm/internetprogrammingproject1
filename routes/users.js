@@ -10,6 +10,9 @@ router.get('/',(req,res)=>{
 router.get('/new',(req,res)=>{
     res.send('New User Form');
 });
+router.post(`/`, (req, res)=>{
+    
+})
 // router.get('/:id', (req, res)=>{
 //    res.send(`Getting User data: ${req.params.id}`);
 // });
